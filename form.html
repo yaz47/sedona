@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Оставьте свой отзыв</title>
+  </head>
+  <body>
+    <header class="page-header">
+      <nav class="main-nav">
+        <button class="main-nav__burger"></button>
+        <a class="main-nav__logo" href="#">
+          <img class="main-nav__logo-image" src="http://placehold.it/150x100" width="150" height="100" alt="City of Sedona">
+        </a>
+        <ul class="main-nav__list">
+          <li class="main-nav__list-item">Главная</li>
+          <li class="main-nav__list-item">Фото и видео</li>
+          <li class="main-nav__list-item">Форма отзыва</li>
+          <li class="main-nav__list-item">HTML Academy</li>
+        </ul>
+      </nav>
+      <img class="page-header__inner-page-image" src="http://placehold.it/150x100" width="150" height="100" alt="Welcome to Sedona">
+    </header>
+    <main>
+      <section class="review">
+        <h1 class="review__title">Оставьте свой отзыв</h1>
+        <p class="review__text">Помогите нашим отелям стать лучше! Оставьте отзыв о них, а также о посещенных вами достопримечательностях</p>
+        <form class="review-form" action="post">
+          <fieldset class="review-form__set">
+            <legend class="review-form__legend">Представьтесь:</legend>
+            <p class="review_form__item">
+              <label class="review-form__label" for="name">Имя*:</label>
+              <input class="review-form__text-input" id="name" type="text" name="name" placeholder="Петр">
+            </p>
+            <p class="review_form__item">
+              <label class="review-form__label" for="surname">Фамилия*:</label>
+              <input class="review-form__text-input" id="surname" type="text" name="surname" placeholder="Иванов">
+            </p>
+            <p class="review_form__item">
+              <label class="review-form__label" for="middle-name">Отчество:</label>
+              <input class="review-form__text-input" id="middle-name" type="text" name="middle-name" placeholder="Александрович">
+            </p>
+          </fieldset>
+          <fieldset class="review-form__set">
+            <legend class="review-form__legend">Контактная информация:</legend>
+            <p class="review_form__item">
+              <label class="review-form__label" for="phone">Контактный телефон*:</label>
+              <input class="review-form__tel-input" id="phone" type="tel" name="phone" placeholder="Введите телефон">
+            </p>
+            <p class="review_form__item">
+              <label class="review-form__label" for="email">Электронная почта*:</label>
+              <input class="review-form__email-input" id="email" type="email" name="email" placeholder="Введите e-mail">
+            </p>
+          </fieldset>
+          <fieldset class="review-form__set">
+            <legend class="review-form__legend">Ваше общее впечатление:</legend>
+            <ul class="review-form__list">
+              <li class="review-form__list-item">
+                <label class="review-form__list-label" for="positive">Скорее положительное</label>
+                <input class="review-form__radio-input" id="positive" type="radio" name="positive" checked>
+              </li>
+              <li class="review-form__list-item">
+                <label class="review-form__list-label" for="negative">Скорее отрицательное</label>
+                <input class="review-form__radio-input" id="negative" type="radio" name="negative">
+              </li>
+              <li class="review-form__list-item">
+                <label class="review-form__list-label" for="dont-know">Затрудняюсь ответить</label>
+                <input class="review-form__radio-input" id="dont-know" type="radio" name="dont-know">
+              </li>
+            </ul>
+          </fieldset>
+          <fieldset class="review-form__set">
+            <legend class="review-form__legend">Посещенные достопримечательности:</legend>
+            <ul class="review-form__list">
+              <li class="review-form__list-item">
+                <label class="review-form__list-label" for="bridge">Мост Дьявола</label>
+                <input class="review-form__checkbox-input" id="bridge" type="checkbox" name="bridge" checked>
+              </li>
+              <li class="review-form__list-item">
+                <label class="review-form__list-label" for="mountain">Гора-Колокол</label>
+                <input class="review-form__checkbox-input" id="mountain" type="checkbox" name="mountain" checked>
+              </li>
+              <li class="review-form__list-item">
+                <label class="review-form__list-label" for="park">Слайд-парк</label>
+                <input class="review-form__checkbox-input" id="park" type="checkbox" name="park" checked>
+              </li>
+              <li class="review-form__list-item">
+                <label class="review-form__list-label" for="cliffs">Красные  скалы</label>
+                <input class="review-form__checkbox-input" id="cliffs" type="checkbox" name="cliffs">
+              </li>
+            </ul>
+          </fieldset>
+          <fieldset class="review-form__set">
+            <legend class="review-form__legend">Опишите свои эмоции:</legend>
+            <textarea class="review-form__textarea" id="emotions" name="emotions" rows="5">Опишите подробно все свои восторги</textarea>
+          </fieldset>
+          <button class="refiew-form__button button" type="submit">Отправить отзыв</button>
+        </form>
+      </section>
+    </main>
+    <footer class="page-footer">
+      <h1 class="page-footer__title">#VisitSedona</h1>
+      <ul class="page-footer__social-list">
+        <li class="page-footer__social-item">
+          <img class="page-footer__social-item-image page-footer__social-item-image--twitter" src="http://placehold.it/150x100" width="150" height="100" alt="Tw">
+        </li>
+        <li class="page-footer__social-item">
+          <img class="page-footer__social-item-image page-footer__social-item-image--facebook" src="http://placehold.it/150x100" width="150" height="100" alt="Fb">
+        </li>
+        <li class="page-footer__social-item">
+          <img class="page-footer__social-item-image page-footer__social-item-image--youtube" src="http://placehold.it/150x100" width="150" height="100" alt="yt">
+        </li>
+      </ul>
+      <span class="page-footer__developer"></span>
+      <a class="page-footer__developer-logo" href="#">
+        <img class="page-footer__develoer-logo-image" src="http://placehold.it/150x100" width="150" height="100" alt="HTML Academy" >
+      </a>
+    </footer>
+  </body>
+</html>
