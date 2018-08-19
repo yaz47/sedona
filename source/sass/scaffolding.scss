@@ -1,0 +1,55 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: normal;
+  src: local("PT Sans"), local("PTSans-Regular"), url("../fonts/PTSans-Web-Regular.woff2") format("woff2"), url("../fonts/PTSans-Web-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: bold;
+  src: local("PT Sans"), local("PTSans-Regular"), url("../fonts/PTSans-Web-Bold.woff2") format("woff2"), url("../fonts/PTSans-Web-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: italic;
+  font-weight: normal;
+  src: local("PT Sans"), local("PTSans-Regular"), url("../fonts/PTSans-Web-Italic.woff2") format("woff2"), url("../fonts/PTSans-Web-Italic.woff") format("woff");
+}
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute !important;
+
+  width: 1px !important;
+  height: 1px !important;
+  margin: -1px !important;
+  padding: 0 !important;
+  border: 0 !important;
+
+  white-space: nowrap;
+
+  clip-path: inset(100%);
+  clip: rect(0, 0, 0, 0);
+  overflow: hidden;
+}
+
+body {
+  min-width: 300px;
+
+  font-size: 14px;
+  line-height: 24px;
+  font-family: "PT Sans", "Arial", sans-serif;
+  color: #000000;
+  font-style: normal;
+
+  background-color: #ffffff;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}

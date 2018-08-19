@@ -3,22 +3,36 @@
   <head>
     <meta charset="utf-8">
     <title>Седона</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="css/style.min.css">
   </head>
   <body>
+    <!-- <div style="display:none">
+      <include src="build/img/sprite.svg"></include>
+    </div> -->
     <header class="page-header">
-      <nav class="main-nav">
-        <button class="main-nav__burger"></button>
-        <a class="main-nav__logo" href="#">
-          <img class="main-nav__logo-image" src="http://placehold.it/150x100" width="150" height="100" alt="City of Sedona">
-        </a>
+      <nav class="main-nav  main-nav--closed main-nav--nojs">
         <ul class="main-nav__list">
-          <li class="main-nav__list-item">Главная</li>
-          <li class="main-nav__list-item">Фото и видео</li>
-          <li class="main-nav__list-item">Форма отзыва</li>
-          <li class="main-nav__list-item">HTML Academy</li>
+          <li class="main-nav__list-item">
+            <a class="main-nav__link">Главная</a>
+          </li>
+          <li class="main-nav__list-item">
+            <a class="main-nav__link" href="photo.html">Фото и видео</a>
+          </li>
+          <li class="main-nav__list-item">
+            <a class="main-nav__link" href="form.html">Форма отзыва</a>
+          </li>
+          <li class="main-nav__list-item">
+            <a class="main-nav__link" href="#">HTML Academy</a>
+          </li>
         </ul>
+        <button class="main-nav__close" type="button"><span class="visually-hidden">Закрыть меню</span></button>
+        <button class="main-nav__menu" type="button"><span class="visually-hidden">Открыть меню</span></button>
       </nav>
-      <img class="page-header__index-image" src="http://placehold.it/150x100" width="150" height="100" alt="Welcome to Sedona">
+      <a class="page-header__logo" href="#">
+        <img class="page-header__logo-image" src="http://placehold.it/150x100" width="150" height="100" alt="City of Sedona">
+      </a>
     </header>
     <main>
       <section class="sight">

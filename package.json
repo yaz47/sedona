@@ -1,0 +1,47 @@
+{
+  "name": "sedona",
+  "version": "1.0.0",
+  "description": "Тренировочный макет «Седона»",
+  "main": "index.html",
+  "scripts": {
+    "stylelint": "stylelint source/sass/**/*.scss --syntax scss",
+    "eslint": "eslint source/js/**/*.js",
+    "test": "npm run stylelint && npm run eslint",
+    "build": "gulp build",
+    "start": "npm run build && gulp serve",
+    "deploy": "npm run build && gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yaz47/sedona.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yaz47/sedona/issues"
+  },
+  "homepage": "https://github.com/yaz47/sedona#readme",
+  "devDependencies": {
+    "@htmlacademy/editorconfig-cli": "^1.0.0",
+    "ajv": "^6.5.3",
+    "autoprefixer": "^9.1.1",
+    "browser-sync": "^2.24.6",
+    "del": "^3.0.0",
+    "eslint": "^5.4.0",
+    "gulp": "^3.9.1",
+    "gulp-csso": "^3.0.1",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-plumber": "^1.2.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-posthtml": "^3.0.4",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-svgstore": "^6.1.1",
+    "gulp-webp": "^3.0.0",
+    "posthtml-include": "^1.2.0",
+    "run-sequence": "^2.2.1",
+    "stylelint": "^9.5.0",
+    "stylelint-config-htmlacademy": "^0.1.1"
+  }
+}
