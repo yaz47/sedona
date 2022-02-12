@@ -24,7 +24,7 @@
   "homepage": "https://github.com/yaz47/sedona#readme",
   "devDependencies": {
     "@htmlacademy/editorconfig-cli": "^1.0.0",
-    "ajv": "^6.5.3",
+    "ajv": "^6.12.3",
     "autoprefixer": "^9.1.1",
     "browser-sync": "^2.24.6",
     "del": "^3.0.0",
